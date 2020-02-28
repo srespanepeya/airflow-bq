@@ -1,4 +1,4 @@
-INSERT INTO user_matias_menendez.extract_rejected_never_arrived_order_date
+INSERT INTO user_matias_menendez.extract_rejected_never_arrived_order_date_2
 
 SELECT 
  r.rider_name

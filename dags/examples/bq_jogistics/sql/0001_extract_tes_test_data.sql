@@ -1,4 +1,4 @@
-INSERT INTO user_matias_menendez.tes_test
+INSERT INTO user_matias_menendez.tes_test_2
 SELECT 
 s.platform, 
 s.abTestVariation,
