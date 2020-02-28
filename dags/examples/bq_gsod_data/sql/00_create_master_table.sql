@@ -1,4 +1,4 @@
-CREATE OR REPLACE TABLE test_datasets.gsod_data_20019_aruy
+CREATE OR REPLACE TABLE user_matias_menendez.gsod_data_20019_aruy
 PARTITION BY date
 AS
 SELECT s.name , 
