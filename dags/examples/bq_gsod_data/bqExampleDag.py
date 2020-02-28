@@ -32,7 +32,7 @@ with DAG(dag_name, schedule_interval='00 12 * * *', catchup=False, default_args=
     # EXTRACT YESTERDAY DATA
     bq_calculate_hot_days = BigQueryOperator(
         task_id='bq_calculate_hot_days',
-        sql='sql/bq_calculate_hot_days.sql',
+        sql='sql/01_calculate_top_hot_days.sql',
         use_legacy_sql=False,
         bigquery_conn_id='peya_bigquery'
     )
